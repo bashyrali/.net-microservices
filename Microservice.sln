@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlatformService", "PlatformService\PlatformService.csproj", "{6B5BEA78-08C5-406C-837C-7AAAA72E08A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F940ED2B-9EC4-4DBA-889B-3D24D9D28CEB}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandsService", "CommandsService\CommandsService.csproj", "{BC66C112-6613-4BBA-8A06-B90C8F3AC99C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B5BEA78-08C5-406C-837C-7AAAA72E08A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B5BEA78-08C5-406C-837C-7AAAA72E08A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B5BEA78-08C5-406C-837C-7AAAA72E08A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B5BEA78-08C5-406C-837C-7AAAA72E08A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC66C112-6613-4BBA-8A06-B90C8F3AC99C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC66C112-6613-4BBA-8A06-B90C8F3AC99C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC66C112-6613-4BBA-8A06-B90C8F3AC99C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC66C112-6613-4BBA-8A06-B90C8F3AC99C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B5BEA78-08C5-406C-837C-7AAAA72E08A2} = {F940ED2B-9EC4-4DBA-889B-3D24D9D28CEB}
+		{BC66C112-6613-4BBA-8A06-B90C8F3AC99C} = {F940ED2B-9EC4-4DBA-889B-3D24D9D28CEB}
+	EndGlobalSection
+EndGlobal
